@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio | Yvette Tran</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">YVETTE TRAN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-5">
+                <a class="nav-item nav-link active text-white" href="index.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link text-white" href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!--Portfolio Section-->
+    <div class="container">
+        <div class="row ml-4">
+            <div class="col-md-7 mt-5 ml-5 border border-dark rounded bg-white">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="ml-3 mr-3 mt-3">Portfolio</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="https://trantastic.github.io/Train-Schedule/"><img class="image-resize" src="images/train.jpg"></a>
+                        <h5 class="border border-dark bg-dark text-white">Train Scheduler</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="https://trantastic.github.io/TriviaGame/"><img class="image-resize" src="images/doge.jpg"></a>
+                        <h5 class="border border-dark bg-dark text-white">Doggo Trivia</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#"><img class="image-resize" src="images/fireplace.jpg"></a>
+                        <h5 class="border border-dark bg-dark text-white">Fireplace App</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="#"><img class="image-resize" src="images/puzzle.jpeg"></a>
+                        <h5 class="border border-dark bg-dark text-white">Puzzle Game</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#"><img class="image-resize" src="images/hiking.jpeg"></a>
+                        <h5 class="border bg-dark text-white">Hiking App</h5>
+                    </div>
+                </div>
+            </div>
+            <!--Connect With Me Section -->
+            <div class="col-md-2 mt-5 ml-3">
+                <div class="card mt-5 border border-dark" style="width: 18rem;">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Connect With Me</h2>
+                        <hr>
+                        <a href="#"><img id="icon" src="images/github.svg"></a>
+                        <a href="#"><img id="icon" class="ml-3 mr-3" src="images/linkedin.svg"></a>
+                        <button type="button" class="btn p-0" data-toggle="modal" data-target="#email"><img id="icon" src="images/email.svg"></button>
+                        <div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="email" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="email">Email Me</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body text-left">
+                                        <form>
+                                            <div class="form-group ml-3 mr-3 text-muted">
+                                                <label for="exampleFormControlInput1">Name:</label>
+                                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Name Last Name">
+                                            </div>
+                                            <div class="form-group ml-3 mr-3 text-muted">
+                                                <label for="exampleFormControlInput1">Email:</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@hello.com">
+                                            </div>
+                                            <div class="form-group ml-3 mr-3 text-muted">
+                                                <label for="exampleFormControlTextarea1">Message:</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-success">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

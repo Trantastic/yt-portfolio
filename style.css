@@ -1,0 +1,43 @@
+body {
+	background: url("https://source.unsplash.com/4k-U1Wp2d00");
+	background-size: 100%;
+	background-repeat: no-repeat;;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.profile {
+	height: 150px;
+	width: 200px;
+	float: left;
+}
+
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+h5 {
+	width: 12.50em;
+	text-align: center;
+	position: relative;
+	bottom: 20%;
+	opacity: 0.9;
+}
+
+/*#icon {
+	height: 60px;
+	width: 60px;
+}
+
+.card {
+	margin-left: 5%;
+}
+
+.image-resize {
+	height: 150px;
+	width: 250px;
+}
+*/
